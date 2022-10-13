@@ -529,14 +529,14 @@ section.footer{
 
 @media(max-width:440px){
     header .container{
-        width: 95%;
+        width: 100%;
     }
     section.hero .container{
-        width: 95%;
+        width: 100%;
     }
      // slides
      section.slides .container{
-        width: 95%;
+        width: 100%;
     }
     section.slides .container .row .slides-cards #card1{
         width: 462px;
@@ -544,7 +544,7 @@ section.footer{
 
     // footer
     section.footer .container{
-        width: 95%;
+        width: 100%;
     }
 }
 
