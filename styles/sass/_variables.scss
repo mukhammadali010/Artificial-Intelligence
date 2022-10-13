@@ -1,0 +1,32 @@
+$title-color:#3A68B8;
+$text-color:rgba(255,255,255,.7);
+$headerbgc:#0A121F;
+$bgc:#08101E;
+
+@mixin common {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@mixin button($width , $height) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 30px;
+    gap: 10px;
+    width: $width;
+    height: $height;
+    background: #3A68B8;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
