@@ -547,6 +547,9 @@ section.footer .container .row .info p {
   }
 }
 @media (max-width: 440px) {
+  .container {
+    margin: 0 auto;
+  }
   header .container {
     width: 100%;
   }
